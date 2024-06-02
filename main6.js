@@ -31,7 +31,16 @@ for (const i of str) {
 
 // Створити масив з 10 - ти чисел.Знайти та вивести на екран максимальне значення з масиву.
 let numbers = [34, 7, 23, 32, 5, 62, 32, 11, 78, 1];
-let maxNumber = Math.max(...numbers);
+// let maxNumber = Math.max(...numbers);
+let maxNumber = 0;
+for (let i = 0; i <= numbers.length; i++) {
+    if (numbers[i] > maxNumber) {
+        maxNumber = numbers[i];
+    }
+    else {
+        continue;
+    }
+}
 console.log(maxNumber);
 
 // Створити масив з 10 - ти чисел.Знайти всі парні числа в масиві та вивести їх на екран.
