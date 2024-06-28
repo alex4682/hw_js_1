@@ -47,32 +47,32 @@ wether.temp(10);
 
 // 3
 
-// const user = {
-//     name: 'Alex',
-//     email: 'example@gmail.com',
-//     password: 'example',
-//     login: function login() {
-//         while (true) {
-//             let email = prompt("Your email");
-//             let password = prompt('Your password');
-//             if (email === this.email && password === this.password) {
-//                 console.log('Correct')
-//                 break;
-//             }
-//             else if (email !== this.email) {
-//                 console.log("Email is incorrect");
-//             }
-//             else if (password !== this.password) {
-//                 console.log('Password is incorrect')
-//             }
-//             else {
-//                 console.log('Incorrect! Try again');
-//             }
-//         };
-//     }
-// }
+const user = {
+    name: 'Alex',
+    email: 'example@gmail.com',
+    password: 'example',
+    login: function login() {
+        while (true) {
+            let email = prompt("Your email");
+            let password = prompt('Your password');
+            if (email === this.email && password === this.password) {
+                console.log('Correct')
+                break;
+            }
+            else if (email !== this.email) {
+                console.log("Email is incorrect");
+            }
+            else if (password !== this.password) {
+                console.log('Password is incorrect')
+            }
+            else {
+                console.log('Incorrect! Try again');
+            }
+        };
+    }
+}
 
-// user.login();
+user.login();
 
 // 4
 const movie = {
