@@ -33,7 +33,7 @@
 //     }
 // }
 // const guessNum = (randomNum, cb) => {
-//     while (one) {
+//     while (two) {
 //         let guess = parseInt(prompt());
 //         cb(guess, randomNum);
 //     }
