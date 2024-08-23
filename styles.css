@@ -1,0 +1,50 @@
+.modal {
+  background-color: #b5b5b5;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  padding: 15px;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+button {
+  height: 35px;
+  border: none;
+  background-color: red;
+}
+
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.473);
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.backdrop.is-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.valid {
+  border: 2px solid green;
+}
+.invalid {
+  border: 2px solid red;
+}

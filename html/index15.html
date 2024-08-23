@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="button" data-action="open-modal">Відкрити модалку</button>
+
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <h2>Modal Window</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          sint perspiciatis voluptates sed eum dolor, ullam deleniti cum
+          voluptatem ipsa? Eligendi fugiat sapiente tenetur modi cupiditate?
+          Inventore, possimus et? Odio culpa voluptate velit consequatur, vitae
+          suscipit adipisci, totam quisquam neque maiores quam iusto. Harum
+          omnis assumenda odio eligendi quod laboriosam, commodi cumque
+          quibusdam debitis reprehenderit, nihil illo neque ex porro eveniet
+          aliquid laudantium ab? Ducimus repellat quidem cum ea cupiditate nisi,
+          unde optio sed provident illum minima esse a eaque, libero assumenda
+          dignissimos maxime commodi debitis? Repellat.
+        </p>
+        <button class="button" data-action="close-modal">
+          Закрити модалку
+        </button>
+      </div>
+    </div>
+    <p class="color">chose color</p>
+    <form action="">
+      <label>
+        <input type="radio" name="color" value="white" checked />
+        white
+      </label>
+      <label>
+        <input type="radio" name="color" value="red" />
+        red
+      </label>
+      <label>
+        <input type="radio" name="color" value="green" />
+        green
+      </label>
+    </form>
+
+    <form action="">
+      <label>
+        <input type="text" class="js-input" />
+      </label>
+    </form>
+    <p>Добрий день <span class="js-span">Незнайомець</span></p>
+
+    <form>
+      <label>
+        <input
+          type="text"
+          id="validation-input"
+          data-length="6"
+          placeholder="Введи 6 символів"
+        />
+      </label>
+    </form>
+
+    <form action="">
+      <label>
+        <input type="range" id="range" />
+      </label>
+    </form>
+    <p id="range-text">Абракадабра</p>
+    <script src="../js/script15.js"></script>
+  </body>
+</html>
