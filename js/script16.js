@@ -23,7 +23,7 @@ document.body.addEventListener('keydown', function (evt) {
 
 const input = document.querySelector("input");
 const render = document.querySelector("[data-action='render']");
-const reset = document.querySelector("[data-action='reset']");
+const reset = document.querySelector("[data-action='destroy']");
 const boxesDiv = document.querySelector("#boxes");
 
 render.addEventListener("click", () => {
@@ -38,5 +38,5 @@ render.addEventListener("click", () => {
 
 reset.addEventListener("click", () => {
     input.value = '';
-    boxesDiv.innerHTML = '';
+    boxesDiv.innerHTML = ' ';
 });
